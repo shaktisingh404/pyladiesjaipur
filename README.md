@@ -1,16 +1,69 @@
-# React + Vite
+# PyLadies Jaipur ✦ Cyber-Editorial Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-fidelity, minimalist landing page for the **PyLadies Jaipur** community. Built with a "Quiet Luxury" aesthetic, this platform serves as the digital chronicle and resource hub for our mission to foster inclusivity and diversity within the Python ecosystem.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✦ Vision & Aesthetic
+Our digital presence is designed around the **Cyber-Editorial** concept:
+- **Minimalist Design**: Clean layouts with a focus on "White Space" and "Quiet Luxury".
+- **Advanced Physics**: Interactive physics-based UI elements powered by `Matter.js`.
+- **Dynamic Interactions**: Smooth, high-frequency animations using `Framer Motion`.
+- **Premium Typography**: Pairing `Space Grotesk` for impact and `Work Sans` for editorial readability.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✦ Architecture & Stack
 
-## Expanding the ESLint configuration
+| Layer | Technology |
+| :--- | :--- |
+| **Framework** | [React 19](https://react.dev/) + [Vite](https://vitejs.dev/) |
+| **Styling** | [TailwindCSS](https://tailwindcss.com/) + Custom CSS Tokens |
+| **Animations** | [Framer Motion](https://www.framer.com/motion/) |
+| **Physics** | [Matter.js](https://brm.io/matter-js/) |
+| **Icons** | [Lucide React](https://lucide.dev/) |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✦ Key Components
+
+- **Digital Hero**: A physics-sandbox interface for interactive engagement.
+- **Chronicle**: A multi-faceted record of our community history and events.
+- **Core Mandate**: Clearly articulated values of gender-neutrality and inclusion.
+- **Architects**: Profiling the leadership and contributors behind the community.
+- **Resource Hub**: A curated repository of datasets, templates, and Python tools.
+
+---
+
+## ✦ Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm / yarn / pnpm
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/pyladies-jaipur/landing-page.git
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start development server:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## ✦ Design System
+We adhere to a strict design language defined in `src/index.css`:
+- **Background**: `#fdfcf9` (Off-white / Paper Texture)
+- **Primary Text**: `#1b1b18` (Obsidian)
+- **Shadows**: Hard, editorial shadows for depth (`editorial-shadow`)
+- **Effects**: Glassmorphism and Backdrop Blur for modern sophistication.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ by PyLadies Jaipur Community</sub>
+</div>
