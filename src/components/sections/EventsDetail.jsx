@@ -1,17 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { eventCategories } from '@data/programs';
 
 const EventsDetail = () => {
-  const eventCategories = [
-    {
-      title: "EVENT_SCHEDULE_2026",
-      events: [
-        { name: "Python for Neural Networks", date: "April 15, 2026", type: "WORKSHOP", status: "UPCOMING" },
-        { name: "Jaipur Open Source Summit", date: "May 22, 2026", type: "CONFERENCE", status: "UPCOMING" }
-      ]
-    }
-  ];
-
   return (
     <section id="events" className="relative py-24 lg:py-40 bg-surface overflow-hidden border-y border-white/5">
       <div className="max-w-7xl mx-auto px-8 md:px-20 grid grid-cols-1 lg:grid-cols-12 gap-24 relative z-10">

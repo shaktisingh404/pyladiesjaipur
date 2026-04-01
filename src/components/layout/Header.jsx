@@ -1,16 +1,9 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { navItems } from '@data/navigation';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-
-  const navItems = [
-    { label: 'Mandate', href: '#mandate' },
-    { label: 'Events', href: '#events' },
-    { label: 'Chronicle', href: '#chronicle' },
-    { label: 'Architects', href: '#architects' },
-    { label: 'Resources', href: '#resources' }
-  ];
 
   return (
     <header className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-full max-w-fit px-4 transition-all duration-300">

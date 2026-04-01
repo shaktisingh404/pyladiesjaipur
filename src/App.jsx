@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import CoreMandate from './components/CoreMandate';
-import Chronicle from './components/Chronicle';
-import EventsDetail from './components/EventsDetail';
-import Architects from './components/Architects';
-import ResourceHub from './components/ResourceHub';
-import Footer from './components/Footer';
+import Header from '@layout/Header';
+import Footer from '@layout/Footer';
+import Hero from '@sections/Hero';
+import CoreMandate from '@sections/CoreMandate';
+import Chronicle from '@sections/Chronicle';
+import EventsDetail from '@sections/EventsDetail';
+import Architects from '@sections/Architects';
+import ResourceHub from '@sections/ResourceHub';
 
 function App() {
   return (
